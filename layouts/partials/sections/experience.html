@@ -1,10 +1,10 @@
-{{ if .Site.params.Experience2.enable | default false }}
+{{ if .Site.params.experiencee.enable | default false }}
 <section id="experience" class="py-5">
     <div class="container">
-        <h3 class="text-center">{{ .Site.params.Experience2.title | default "Experience" }}</h3>
+        <h3 class="text-center">{{ .Site.params.experiencee.title | default "Experience" }}</h3>
         <div class="row justify-content-center py-5">
-            {{ $indexMenu := .Site.params.Experience2.index }}
-            {{ range $index, $element := .Site.params.Experience2.items }}
+            {{ $indexMenu := .Site.params.experiencee.index }}
+            {{ range $index, $element := .Site.params.experiencee.items }}
             <div class="col-12 p-0">
                 <div class="row row align-items-center justify-content-center m-1 mb-4">
                     {{ if $indexMenu }}
